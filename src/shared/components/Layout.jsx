@@ -15,6 +15,7 @@ const Layout = ({ children, sidebar = null }) => {
           </aside>
         )}
         <main className="flex-1 px-0 py-0 w-full mt-16">
+          {/* Elimino cualquier contenedor extra y restricción de ancho, el children será full width */}
           {children}
         </main>
       </div>

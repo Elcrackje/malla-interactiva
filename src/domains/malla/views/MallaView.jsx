@@ -72,7 +72,7 @@ const MallaView = () => {
   const stats = progress.getProgress(totalCourses);
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <>
       <CareerSelector
         careers={careers}
         selectedCareer={selectedCareerId}
@@ -84,9 +84,8 @@ const MallaView = () => {
         progress={progress}
         onCourseToggle={handleCourseToggle}
       />
-    </div>
+    </>
   );
 };
 
 export default MallaView;
-

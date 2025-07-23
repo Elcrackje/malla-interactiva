@@ -16,8 +16,8 @@ const MallaGrid = ({ career, progress, onCourseToggle }) => {
   );
 
   return (
-    <div className="overflow-x-auto mt-8">
-      <table className="w-full max-w-7xl mx-auto border-separate border-spacing-0">
+    <div className="overflow-x-auto mt-8 w-full">
+      <table className="w-full border-separate border-spacing-0">
         <thead>
           <tr>
             {cycles.map(cycle => (
